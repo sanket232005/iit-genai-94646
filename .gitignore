@@ -1,0 +1,7 @@
+.venv
+__pycache__/
+venv_s/
+venv_a/
+.env
+*.json
+*.csv
