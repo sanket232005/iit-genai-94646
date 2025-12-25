@@ -19,10 +19,10 @@ llm = ChatGroq(model="openai/gpt-oss-120b",api_key=api_key)
 # )
 
 user_input = input("You : ")
-result = llm.stream(user_input)
+# result = llm.stream(user_input)
 
-for chunk in result:
-    print(chunk.content, end="")
+# for chunk in result:
+#     print(chunk.content, end="")
 
-# result = llm.invoke(user_input)
-# print("AI : ",result.content)    
+result = llm.invoke(user_input)
+print("AI : ",result.content)    
