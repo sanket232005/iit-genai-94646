@@ -69,7 +69,7 @@ def sunbeam_web_tool(question: str) -> str:
     Scrape Sunbeam website and answer user question
     based on scraped content.
     """
-
+    print("Love you")
     url = "https://www.sunbeaminfo.com"
     response = requests.get(url, timeout=10)
 
